@@ -1,0 +1,424 @@
+:root{
+    --primary-color:red;
+}
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+.showcase{
+    background: url('home-bg.jpg') no-repeat center center/cover;
+    width: 100vw;  
+    height: 550px;
+    position: relative;    
+}
+.showcase-top{
+    position:relative;
+    height: 5.62rem;
+}
+.showcase-top img{
+    width:6rem;
+    position:absolute;
+}
+.showcase-top a{
+    position: absolute;
+    right: 0;
+    margin-top: 23px;
+}
+.btn{
+    display: inline-block;
+    margin: 20px 30px;
+    width: 4rem;
+    text-align: center;
+    padding: 4px;
+    border-radius: 3px;
+}
+.showcase-content{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 9rem;
+}
+.showcase-content h3{margin: 14px;} 
+.gtst{
+    display: flex;
+    justify-content: center;
+    margin: 14px;
+    height: 46px;
+}
+.gtst input{
+    width: 23rem;
+}
+.gtst a{
+    width: 12rem;
+    padding-top: 12px;
+}   
+div a{
+    background: red;
+    color: white;
+    text-decoration: none;
+}
+.jumbtron{
+    margin: 12px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color:black;
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    justify-items: center;
+}
+.jumbtron img{height:230px;}
+.jumbtron-inner{
+    height:230px;
+    padding:28px;
+    margin: 12px;
+    max-width: 600px;
+}
+.jumbtron-inner h1,h5{
+    margin: 21px auto;
+}
+.jumbtron-faqs{
+    background-color: black;
+    height: 410px;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-row-gap: 0px;
+    align-items: center;
+    justify-items: center;
+}
+.jumbtron-faqs h5{
+    background-color: rgb(61, 61, 61);
+    line-height: 2rem;
+    padding-left: 20px;
+    margin: 7px auto;
+}
+
+.jumbtron-faqs div{width: 32rem;}
+.jumbtron-faqs h2,h6{
+    text-align: center;
+}
+.jumbtron-faqs h2{margin-bottom: 23px;}
+.cmnt{margin-top: 37px;}
+.faqsAns{display: none;}
+.faqs-ans{
+    margin-top: -7px;
+    border:2px solid rgb(86, 86, 88);
+    background-color: rgb(61, 61, 61);
+    text-align: left;
+    padding: 3px 20px;
+}
+.faqsAns img{
+    border: 2px solid red;
+    background-color: white;
+    position: absolute;
+    height:17px;
+    margin-top:-57px;
+    margin-left: 495px;
+}
+.jumform{
+    display: flex;
+    height: 30px;
+    margin: 12px auto;
+}
+.jumform input{width: 305px;}
+.jumform a{
+    width: 207px;
+    text-align: center;
+    padding-top: 5px;
+}
+/* Footer */
+.footer {
+	margin: 12px auto;
+	overflow: auto;
+    background-color: black;
+    padding: 32px;
+}
+.footer,.footer a {
+	color: #999;
+	font-size: 0.6rem;
+    background-color: black;
+}
+.footer p {
+	margin-bottom: 1.5rem;
+    margin-left: 7%;
+}
+.footer .footer-cols {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.footer li {
+	line-height: 1.9;
+    list-style: none;
+    margin: 12px;
+}
+/* sign in page */
+.sign-in-form{
+    background-color: black;
+    width:fit-content;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-gap: 0.6rem;
+    padding: 60px 40px;
+    padding-bottom: 66px;
+    opacity: 0.7;
+    margin: 3rem auto;
+}
+.sign-in-form h2{margin-bottom: 12px;}
+.sign-in-form input{
+    width:14rem;
+    height: 1.9rem;
+    background-color:grey;
+    opacity:0.7;
+}
+.sign-in-form>div>a{
+    width:14rem;
+    height: 1.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in-form ::placeholder{
+    color: ivory;
+    padding: 15px;
+}
+.sign-in-form h5{
+    font-weight:100;
+    color: rgb(175, 131, 123);
+    margin: 5px;
+}
+.sign-in-form h5 a{
+    background-color: black;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.sign-in-form h6{color:gray;}
+hr{
+    top:420px;
+    height: 6px;
+    background-color: white;
+    width: 100vw;
+    position: absolute;
+}
+.sgn-foot{margin-top: 0;}
+.sgnup{top: 428px;}
+/* Browse page */
+.browse{
+    background: url('joker1.jpg') no-repeat center center/cover;
+    width: 100vw;  
+    height: 730px;
+    position: relative;  
+}
+.browse-top{
+    position:relative;
+    height: 5.62rem;
+}
+.browse-top img{
+    width:6rem;
+    position:absolute;
+}
+.browse-top a{
+    position: absolute;
+    margin-top: 28px;
+    background: transparent;
+    margin-left: 150px;
+}
+.bbtn{
+    display: inline-block;
+    margin: 20px 30px;
+    width: 4rem;
+    padding-left: 64px;
+    text-align: center;
+}
+.browse-content{
+    position: absolute;
+    top:19rem;
+    margin-left: 30px;
+    padding: 4px;
+}
+.browse-content p{width:52%;margin-bottom: 5px;}
+.browse-content a{
+    background-color:white ;
+    color: #000;
+    display: inline-block;
+    width: 5rem;
+    height: 1.9rem;
+    border-radius: 4px;
+    padding: 6px;
+    text-align: center;
+}
+
+.movie-slide{background-color: rgb(37, 36, 36);color:white;}
+  .movie-slide h3{margin: -2px 13px;padding-top: 1rem;}
+  .carousel {
+    height: 246px;
+    width:100%;
+    align-items: center;
+    display: flex;
+    margin: 1rem auto;
+    overflow: hidden;
+    position: relative;
+  }
+    
+  .carousel__images-1,.carousel__images-2,.carousel__images-3,.carousel__images-4,.carousel__images-5{
+      height: 273px;
+      width:auto;
+      text-align: center;
+      
+      align-items: center;
+      display: flex;
+      transform: translateX(0);
+      transition: transform 0.25s;
+  }    
+ .carousel img {
+        height: 200px;
+        margin:5px 6px;
+        transition: 0.5s ease;
+        border-radius: 5px;
+        cursor:pointer;
+  }
+  .carousel img:hover{
+      transform: scale(1.2);
+  }
+  
+  .movie-card{
+    height: 280px;
+    margin-top: -16px;
+    display: flex; 
+}
+.movie-card h3{
+    margin-top: 55px;
+}
+.movie-card p{
+    width: 46%;
+    padding: 12px;
+}
+.movie-card a{
+  background-color:white ;
+  color: #000;
+  display: inline-block;
+  width: 5rem;
+  height: 1.9rem;
+  border-radius: 4px;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 12px;
+}
+.movie-card img{
+  margin: 5px;
+  height: 28px;
+  border-radius: 50%;
+  background-color:red;
+  position: absolute;
+  right:10px;
+  cursor: pointer;
+}
+.movie-card img:hover{
+  opacity: 0.8;
+} 
+.closable-1{
+    background: url("drama-large.jpg") no-repeat center center/cover;
+    display:none;
+}
+.closable-2{
+      background: url("drama-large (1).jpg") no-repeat center center/cover;
+      display: none;
+} 
+.show{
+    display: flex !important;
+}    
+  .carousel__button-1,.carousel__button-2,.carousel__button-3,.carousel__button-4,.carousel__button-5 {
+      background: #3bf8ef;
+      border: 0;
+      border-radius: 50%;
+      color: white;
+      cursor: pointer;
+      font-size: 1.5rem;
+      font-weight: bold;
+      height: 3rem;
+      opacity: 0.25;
+      position: absolute;
+      transition: opacity 0.25s;
+      width: 3rem;
+      z-index: 12;
+  }  
+  .previous {
+        left: 5px;
+  }
+      
+  .next {
+        right: 5px;
+  }
+      
+  .carousel__button-1:hover {
+        opacity: 0.8;
+  }
+  .carousel__button-2:hover {
+    opacity: 0.8;
+  }
+  .carousel__button-3:hover {
+    opacity: 0.8;
+  }
+  .carousel__button-4:hover {
+    opacity: 0.8;
+  }
+  .carousel__button-5:hover {
+    opacity: 0.8;
+  }
+
+.browser-footer{margin-top: -16px;} 
+
+@media (max-width:660px){
+    html{
+        font: 0.8rem sans-serif;
+    }
+    .carousel{
+        width: 22rem;
+        margin:2rem auto;
+        height:auto;
+    }
+    .carousel__images-1,.carousel__images-2,.carousel__images-3,
+    .carousel__images-4,.carousel__images-5{
+        height: auto;
+        width:auto;
+    }
+    .carousel img{
+        height: auto;
+        width: 21rem;
+    }
+    .movie-card h3{margin-top: 5px;}
+    .movie-card p{padding:10px;}
+}
+@media (max-width:512px){
+    .jumbtron{
+        grid-template-columns: 1fr;
+        height: 30.75rem;
+    }
+    .jumbtron-inner{
+        height:111px;
+        margin: -41px;
+        text-align: center;
+    }
+    .jumbtron-inner h1, h5{margin:21px;}
+    .jumbtron img{height:14rem;}
+    .jumbtron-faqs div{width:20rem;}
+    .jumform a{
+        padding-top: 8px;
+        font-size: 8px;
+    }
+    .faqsAns img{margin-top: -76px; margin-left: 237px;}
+
+}

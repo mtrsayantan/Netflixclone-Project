@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Browse page</title>
+    <link rel="stylesheet" href="netflixhome.css">
+</head>
+<body>
+    <header class="browse">
+        <div class="browse-top">
+            <img src="logo.svg" alt="Netflix" class="btn">
+            <a href="#" class="bbtn">Series</a>
+            <a href="#">Films</a>
+        </div>
+        <div class="browse-content">
+            <h1>Watch Joker Now</h1>
+            <p>Forever alone in a crowed, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he's part of the world around him.</p>
+            <a href="joker trailer.mp4" target="_blank" class="browser-play">Play</a>
+        </div>
+    </header> 
+    <section>
+        <div class="movie-slide">
+            <h3>Drama</h3>
+            <div class="carousel">
+                <button class="carousel__button-1 previous" id="previous-1"><</button>
+                <div class="carousel__images-1">
+                    <img class="image-item" id="closable-1" src="drama-small (1).jpg" alt="">
+                    <img class="image-item" id="closable-2" src="drama-small (2).jpg" alt="">
+                    <img class="image-item" id="closable-3" src="drama-small (3).jpg" alt="">
+                    <img class="image-item" id="closable-4" src="drama-small (4).jpg" alt="">
+                    <img class="image-item" id="closable-5" src="drama-small (5).jpg" alt="">
+                </div>
+                <button class="carousel__button-1 next" id="next-1">></button>
+            </div>
+            <div class="movie-card closable-1 show">
+                <div class="card-container">
+                    <h3>Fight Club</h3>
+                    <p>Discontented with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler, a careless soap salesman. The project soon spirals down into something sinister. </p>
+                    <a href="fight club trailer.mp4" target="_blank">play</a>
+                </div>
+                <img src="close.png" alt="" onclick="removeShow()">
+            </div>
+            <div class="movie-card closable-2">
+                <div class="card-container">
+                    <h3>Kings Speech</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolore ab adipisci et autem quia corporis facere expedita? Libero amet optio et rem.</p>
+                    <a href="Kins-speech trailer.mp4" target="_blank">play</a>
+                </div>
+                <img src="close.png" alt="" onclick="removeShow()">
+            </div>
+        </div>
+        <div class="movie-slide">
+            <div class="movie-slide">
+                <h3>Thriller</h3>
+                <div class="carousel">
+                    <button class="carousel__button-2 previous" id="previous-2"><</button>
+                    <div class="carousel__images-2">
+                        <img src="thriller-small (1).jpg" alt="">
+                        <img src="thriller-small (2).jpg" alt="">
+                        <img src="thriller-small (3).jpg" alt="">
+                        <img src="thriller-small (4).jpg" alt="">
+                        <img src="thriller-small (5).jpg" alt="">
+                    </div>
+                    <button class="carousel__button-2 next" id="next-2">></button>
+                </div>
+            </div>
+            <div class="movie-slide">
+                <h3>Children</h3>
+                <div class="carousel">
+                    <button class="carousel__button-3 previous" id="previous-3"><</button>
+                    <div class="carousel__images-3">
+                        <img src="children-small.jpg" alt="">
+                        <img src="children-small (1).jpg" alt="">
+                        <img src="children-small (2).jpg" alt="">
+                        <img src="children-small (3).jpg" alt="">
+                        <img src="children-small (4).jpg" alt="">
+                    </div>
+                    <button class="carousel__button-3 next" id="next-3">></button>
+                </div>
+            </div>
+            <div class="movie-slide">
+                <h3>Suspense</h3>
+                <div class="carousel">
+                    <button class="carousel__button-4 previous" id="previous-4"><</button>
+                    <div class="carousel__images-4">
+                        <img src="suspense-small (1).jpg" alt="">
+                        <img src="suspense-small (2).jpg" alt="">
+                        <img src="suspense-small (3).jpg" alt="">
+                        <img src="suspense-small (4).jpg" alt="">
+                        <img src="suspense-small (5).jpg" alt="">
+                    </div>
+                    <button class="carousel__button-4 next" id="next-4">></button>
+                </div>
+            </div>
+        </div>
+        <div class="movie-slide">
+            <h3>Romance</h3>
+            <div class="carousel">
+                <button class="carousel__button-5 previous" id="previous-5"><</button>
+                <div class="carousel__images-5">
+                    <img src="romance-small (1).jpg" alt="">
+                    <img src="romance-small (2).jpg" alt="">
+                    <img src="romance-small (3).jpg" alt="">
+                    <img src="romance-small (4).jpg" alt="">
+                    <img src="romance-small (5).jpg" alt="">
+                </div>
+                <button class="carousel__button-5 next" id="next-5">></button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer browser-footer">
+        <p>Questions? Contact us</p>
+        <div class="footer-cols">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Speed Test</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Legal Notices</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Redeem Gift Cards</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Netflix Originals</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><br></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="index.js"></script>      
+</body>
+</html>
